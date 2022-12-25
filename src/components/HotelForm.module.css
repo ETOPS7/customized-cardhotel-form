@@ -1,0 +1,64 @@
+form {
+  margin: 0% auto 0 auto;
+  padding: 30px;
+  width: 400px;
+  height: auto;
+  overflow: hidden;
+  background: white;
+  border-radius: 10px;
+}
+
+form label {
+  font-size: 14px;
+  color: darkgray;
+}
+
+form label,
+form input {
+  float: left;
+  clear: both;
+}
+
+form input {
+  margin: 15px 0;
+  padding: 15px 10px;
+  width: 100%;
+  outline: none;
+  border: 1px solid #bbb;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+h2 {
+  margin: 0 auto;
+  white-space: nowrap;
+  /* font-family: "monotype", cursive; */
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: lightgray;
+}
+
+h2:hover {
+  color: cornflowerblue;
+}
+
+button {
+  background-color: #3a81ed;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 20px;
+  border: 0;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.errorTitle {
+  font-size: 10px;
+  color: red;
+}
